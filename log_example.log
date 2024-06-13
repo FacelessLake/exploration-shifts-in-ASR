@@ -1,0 +1,31 @@
+GPU 0: NVIDIA A100 80GB PCIe (UUID: GPU-18f2832a-307a-6c19-83c0-3ebdc3f6abb2)
+nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2022 NVIDIA Corporation
+Built on Wed_Jun__8_16:49:14_PDT_2022
+Cuda compilation tools, release 11.7, V11.7.99
+Build cuda_11.7.r11.7/compiler.31442593_0
+Python 3.10.14
+torch.version = 2.3.0, CUDA = True, transformers.version = 4.40.2, datasets.version = 2.12.0, tokenizers.version = 0.19.1
+Downloading and preparing dataset parquet/default to /userspace/bsm/huggingface_cached/datasets/parquet/default-e635526c6d5cb509/0.0.0/2a3b91fbd88a2c90d1dbbb32b460cf621d31bd5b05b934492fdef7d8d6f236ec...
+Dataset parquet downloaded and prepared to /userspace/bsm/huggingface_cached/datasets/parquet/default-e635526c6d5cb509/0.0.0/2a3b91fbd88a2c90d1dbbb32b460cf621d31bd5b05b934492fdef7d8d6f236ec. Subsequent calls will reuse this data.
+{'loss': 0.0693, 'grad_norm': 6.525782585144043, 'learning_rate': 1.0900000000000051e-05, 'epoch': 1.0}
+{'eval_loss': 0.31627506017684937, 'eval_cer': 0.06726136394923048, 'eval_runtime': 103.3165, 'eval_samples_per_second': 13.086, 'eval_steps_per_second': 0.416, 'epoch': 1.0}
+{'loss': 0.0713, 'grad_norm': 1.711558222770691, 'learning_rate': 2.080000000000014e-05, 'epoch': 2.0}
+{'eval_loss': 0.28461605310440063, 'eval_cer': 0.06637115351082477, 'eval_runtime': 87.3672, 'eval_samples_per_second': 15.475, 'eval_steps_per_second': 0.492, 'epoch': 2.0}
+{'loss': 0.0742, 'grad_norm': 8.291000366210938, 'learning_rate': 3.0699999999999974e-05, 'epoch': 3.0}
+{'eval_loss': 0.27240055799484253, 'eval_cer': 0.06664647632682653, 'eval_runtime': 88.8674, 'eval_samples_per_second': 15.214, 'eval_steps_per_second': 0.484, 'epoch': 3.0}
+{'loss': 0.0765, 'grad_norm': 2.280393600463867, 'learning_rate': 4.059999999999933e-05, 'epoch': 4.0}
+{'eval_loss': 0.24597632884979248, 'eval_cer': 0.06450813578921286, 'eval_runtime': 89.0501, 'eval_samples_per_second': 15.182, 'eval_steps_per_second': 0.483, 'epoch': 4.0}
+{'loss': 0.0801, 'grad_norm': 1.943444013595581, 'learning_rate': 5.049999999999804e-05, 'epoch': 5.0}
+{'eval_loss': 0.2414103001356125, 'eval_cer': 0.0663436212292246, 'eval_runtime': 90.3614, 'eval_samples_per_second': 14.962, 'eval_steps_per_second': 0.476, 'epoch': 5.0}
+{'loss': 0.0817, 'grad_norm': 2.1200263500213623, 'learning_rate': 6.0399999999997165e-05, 'epoch': 6.0}
+{'eval_loss': 0.25395068526268005, 'eval_cer': 0.06735313822123105, 'eval_runtime': 89.0174, 'eval_samples_per_second': 15.188, 'eval_steps_per_second': 0.483, 'epoch': 6.0}
+{'loss': 0.0836, 'grad_norm': 8.237384796142578, 'learning_rate': 7.029999999999678e-05, 'epoch': 7.0}
+{'eval_loss': 0.25214219093322754, 'eval_cer': 0.06631608894762442, 'eval_runtime': 90.5781, 'eval_samples_per_second': 14.926, 'eval_steps_per_second': 0.475, 'epoch': 7.0}
+{'loss': 0.086, 'grad_norm': 4.134584426879883, 'learning_rate': 8.019999999999698e-05, 'epoch': 8.0}
+{'eval_loss': 0.25421494245529175, 'eval_cer': 0.06731642851243083, 'eval_runtime': 88.7883, 'eval_samples_per_second': 15.227, 'eval_steps_per_second': 0.484, 'epoch': 8.0}
+{'loss': 0.0883, 'grad_norm': 5.4324259757995605, 'learning_rate': 9.009999999999737e-05, 'epoch': 9.0}
+{'eval_loss': 0.26972025632858276, 'eval_cer': 0.07079467342125309, 'eval_runtime': 88.3551, 'eval_samples_per_second': 15.302, 'eval_steps_per_second': 0.487, 'epoch': 9.0}
+{'loss': 0.0902, 'grad_norm': 3.643561363220215, 'learning_rate': 9.999999999999778e-05, 'epoch': 10.0}
+{'eval_loss': 0.26144686341285706, 'eval_cer': 0.07179501298605949, 'eval_runtime': 88.6609, 'eval_samples_per_second': 15.249, 'eval_steps_per_second': 0.485, 'epoch': 10.0}
+{'train_runtime': 29730.2511, 'train_samples_per_second': 18.322, 'train_steps_per_second': 0.573, 'train_loss': 0.08011755010903897, 'epoch': 10.0}
